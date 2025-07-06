@@ -3,15 +3,15 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative h-[60vh] min-h-[400px] w-full flex items-center justify-center text-center text-white">
+    <section className="relative h-[60vh] min-h-[500px] w-full flex items-center justify-center text-center text-white">
       <Image
         src="https://placehold.co/1920x1080.png"
         alt="Exotic travel destination"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 z-0 brightness-50"
+        fill
+        className="absolute inset-0 object-cover"
         data-ai-hint="exotic landscape"
       />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
       <div className="relative z-10 p-4 max-w-4xl">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight drop-shadow-lg">
           Discover Your Next Adventure

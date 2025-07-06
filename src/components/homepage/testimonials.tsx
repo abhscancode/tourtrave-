@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Star } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
@@ -36,8 +36,9 @@ export function Testimonials() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">What Our Travelers Say</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {testimonials.map((testimonial) => (
-            <Card key={testimonial.name} className="bg-card">
-              <CardHeader>
+            <Card key={testimonial.name} className="bg-card relative overflow-hidden pt-6">
+              <Quote className="absolute -top-2 -left-2 h-16 w-16 text-primary/5" />
+              <CardHeader className="relative">
                 <div className="flex items-center space-x-4">
                   <Avatar>
                     <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.hint} />

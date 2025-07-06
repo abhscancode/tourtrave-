@@ -41,7 +41,7 @@ export function FeaturedTours() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Featured Tours</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {tours.map((tour) => (
-            <Card key={tour.title} className="flex flex-col overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <Card key={tour.title} className="flex flex-col overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
               <CardHeader className="p-0">
                  <Image
                   src={tour.image}

@@ -35,7 +35,7 @@ export function Invoices() {
                 <TableCell>{invoice.date}</TableCell>
                 <TableCell>{invoice.amount}</TableCell>
                 <TableCell>
-                  <Badge className="bg-green-100 text-green-800 hover:bg-green-100/80">{invoice.status}</Badge>
+                  <Badge variant="success">{invoice.status}</Badge>
                 </TableCell>
                 <TableCell className="text-right">
                   <Button variant="outline" size="sm">Download</Button>
