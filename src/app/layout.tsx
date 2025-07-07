@@ -5,7 +5,7 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'VoyageVerse - Your Adventure Awaits',
+  title: 'SkyWorld | Your Adventure Awaits',
   description: 'A modern, interactive prototype for a travel booking website.',
 };
 

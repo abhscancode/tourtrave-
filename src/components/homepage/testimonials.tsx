@@ -9,7 +9,7 @@ const testimonials = [
     image: "https://placehold.co/100x100.png",
     hint: "woman portrait",
     title: "An unforgettable experience!",
-    quote: "The trip to Paris was perfectly organized. VoyageVerse handled everything, letting us enjoy the magic of the city stress-free. Highly recommended!",
+    quote: "The trip to Paris was perfectly organized. Skyworld handled everything, letting us enjoy the magic of the city stress-free. Highly recommended!",
   },
   {
     name: "Ben Carter",
@@ -25,7 +25,7 @@ const testimonials = [
     image: "https://placehold.co/100x100.png",
     hint: "woman travel",
     title: "Customer service is top-notch.",
-    quote: "The team at VoyageVerse was incredibly helpful in customizing our trip. Their attention to detail made our Santorini vacation a dream come true.",
+    quote: "The team at Skyworld was incredibly helpful in customizing our trip. Their attention to detail made our Santorini vacation a dream come true.",
   },
 ];
 

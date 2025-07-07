@@ -7,7 +7,7 @@ export function CtaSection() {
       <div className="container text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Ready to Find Your Next Destination?</h2>
         <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
-          Join VoyageVerse today to get personalized recommendations and manage your bookings all in one place. Your next great story is just a click away.
+          Join Skyworld today to get personalized recommendations and manage your bookings all in one place. Your next great story is just a click away.
         </p>
         <div className="mt-8 flex justify-center gap-4">
           <Link href="/dashboard" passHref>

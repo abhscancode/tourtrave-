@@ -16,7 +16,7 @@ export function Commissions() {
         <Card>
           <CardHeader>
             <CardTitle>Total Commission Earned</CardTitle>
-            <CardDescription>All-time earnings as a VoyageVerse partner.</CardDescription>
+            <CardDescription>All-time earnings as a Skyworld partner.</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="text-4xl font-bold text-primary">$51,450.00</p>

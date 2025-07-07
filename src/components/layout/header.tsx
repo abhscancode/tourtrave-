@@ -20,7 +20,7 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Mountain className="h-6 w-6 text-primary" />
-          <span className="font-bold font-headline text-lg text-primary">VoyageVerse</span>
+          <span className="font-bold font-headline text-lg text-primary">SkyWorld</span>
         </Link>
         <nav className="hidden flex-1 items-center space-x-8 text-sm font-medium md:flex">
           {navLinks.map((link) => (
@@ -49,7 +49,7 @@ export function Header() {
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                <div className="flex items-center space-x-2 p-4 border-b">
                 <Mountain className="h-6 w-6 text-primary" />
-                <span className="font-bold font-headline text-lg text-primary">VoyageVerse</span>
+                <span className="font-bold font-headline text-lg text-primary">Skyworld</span>
               </div>
               <nav className="flex flex-col space-y-2 p-4">
                 {navLinks.map((link) => (

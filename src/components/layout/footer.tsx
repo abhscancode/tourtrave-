@@ -8,10 +8,10 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
             <Mountain className="h-6 w-6 text-primary" />
-            <span className="font-headline text-lg font-bold text-primary">VoyageVerse</span>
+            <span className="font-headline text-lg font-bold text-primary">Skyworld</span>
           </div>
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} VoyageVerse. All rights reserved.
+            © {new Date().getFullYear()} Skyworld. All rights reserved.
           </p>
           <nav className="flex gap-4">
             <Link href="#" className="text-sm hover:text-primary" prefetch={false}>
